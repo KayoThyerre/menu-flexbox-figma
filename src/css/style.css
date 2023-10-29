@@ -1,0 +1,53 @@
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    padding: 11px 6px;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.menu li a:hover {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.menu li a.btn {
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    margin-left: 30px;
+    padding: 10px 20px;
+}
